@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <h1>Create new Mobile</h1>
+        <form action="MainServlet" method="POST">
+            mobileID <input type="text" name="txtmobileId" value="" />(2 - 10 chars)<br/>
+            Description <input type="text" name="txtDescript" value="" />(5-250 chars)<br/>
+            Price <input type="text" name="txtPrice" value="" />(double number)<br/>
+            mobileName <input type="text" name="txtmobileName" value="" />(3-20 chars)<br/>
+            Year of Production <input type="text" name="txtYOP" value="" />(year form: yyyy)<br/>
+            Quantity <input type="text" name="txtQuantity" value="" />(possitive number)<br/>
+            Sale <input type="checkbox" name="chkSale" value="" /><br/>
+            <input type="submit" value="Create" name="btAction" />
+            <input type="reset" value="Reset" />
+            
+        </form>
+    </body>
+</html>
