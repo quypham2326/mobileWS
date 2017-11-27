@@ -53,7 +53,6 @@
                             <th>Mobile Name</th>
                             <th>Year of Production</th>
                             <th>Quantity</th>
-                            <th>Not Sale</th>
                             <th>Action</th>
                         </tr>
                     </thead>
@@ -83,9 +82,6 @@
                                 </td>
                                 <td>
                                     ${dto.quantity}
-                                </td>
-                                <td>
-                                    ${dto.notSale}
                                 </td>
                                 <td>
                                     <input type="submit" value="Add to Cart" name="btAction" />

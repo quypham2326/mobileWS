@@ -36,7 +36,7 @@ public class tblUserDAO implements Serializable{
            
             con=DBUtilities.makeConnection();
             if(con!=null){
-                String sql="Select * From tbl_Mobile Where  price Between ? and ?";
+                String sql="Select * From tbl_Mobile Where notSale='false' AND price Between ? and ?";
                 stm=con.prepareStatement(sql);
                 stm.setString(1, min);
                 stm.setString(2, max);
